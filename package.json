@@ -1,0 +1,40 @@
+{
+  "name": "hubot-ehwha",
+  "version": "1.0.0",
+  "description": "Provides link to Professor Farnsworth saying 'Eh wha?'",
+  "main": "index.coffee",
+  "author": {
+    "name": "Johan Meiring",
+    "email": "johanmeiring@gmail.com",
+    "url": "https://github.com/johanmeiring"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "futurama",
+    "farnsworth",
+    "eh wha"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "script/test"
+  },
+  "homepage": "https://github.com/johanmeiring/hubot-ehwha/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johanmeiring/hubot-ehwha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johanmeiring/hubot-ehwha/issues"
+  },
+  "dependencies": {
+    "hubot": ">= 2.4.0",
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  }
+}
